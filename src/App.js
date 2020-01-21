@@ -15,7 +15,6 @@ function App() {
   return (
     <div>
       <h1>Welcome to your playground!! Good Luck!</h1>
-      test
     </div>
   );
 }
