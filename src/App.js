@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 // Your Tasks:
+// 1. Create your feature branch. Name it "your-name-feature-branch"
 // 1. Create a <button> element that says "Click Me".
 // 2. Add an onClick handler to the button that alerts "You clicked me!".
 // 3. Import <TaskList> component to this (App.js) file and render it.
