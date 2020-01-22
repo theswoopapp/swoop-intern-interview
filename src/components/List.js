@@ -1,6 +1,6 @@
 import React from "react";
 
-function TaskList() {
+function List() {
   return (
     <div>
       <li>Swoop</li>
@@ -11,4 +11,4 @@ function TaskList() {
   );
 }
 
-export default TaskList;
+export default List;
