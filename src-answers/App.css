@@ -1,0 +1,12 @@
+/* .App {
+  text-align: center;
+} */
+.container {
+  text-align: center;
+}
+.blueDiv {
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}

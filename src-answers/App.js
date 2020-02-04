@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import List from "./components/List";
 
 // Your Tasks:
 // 1. Create your feature branch. Name it "your-name-feature-branch"
@@ -15,9 +16,17 @@ import "./App.css";
 //Utilize Chrome Dev Tools to debug and view your HTML/CSS
 
 function App() {
+  const handleClick = () => {
+    alert("Click me!");
+  };
+  const propTask = "This is for step 8.5";
+
   return (
-    <div>
+    <div className="container">
       <h1>Welcome to your playground!! Good Luck!</h1>
+      <button onClick={handleClick}>Click me</button>
+      <List propTask={propTask} />
+      <div className="blueDiv"></div>
     </div>
   );
 }
